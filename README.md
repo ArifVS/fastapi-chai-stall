@@ -11,4 +11,29 @@ This project is a simple FastAPI-based Chai Ordering API where users can view av
 ✅ Handle Errors Gracefully  
 
 ## 🔥 How to Run
-1. Clone this repository:  
+1. Clone this repository:
+2. Install dependencies:
+3. Run the FastAPI server:
+
+
+## 🌐 API Endpoints
+| Method | Endpoint             | Description                          |
+|---------|----------------------|--------------------------------------|
+| `GET`    | `/`                   | Home Page - Welcome Message          |
+| `GET`    | `/menu`               | Display Available Chai Types         |
+| `GET`    | `/order/{chai_type}`  | Order a Specific Chai (e.g., `ginger_chai`) |
+
+## 📄 Example Usage
+1. **Home Route:** `http://localhost:8000/`  
+2. **Menu Route:** `http://localhost:8000/menu`  
+3. **Order Example:** `http://localhost:8000/order/ginger_chai` or  `http://localhost:8000/docs`
+
+## 🛠️ Tech Stack
+- FastAPI  
+- Python  
+- Uvicorn  
+
+## ✨ Author
+Developed by Velloresyed Arifulla 
+
+
