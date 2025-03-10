@@ -14,6 +14,7 @@ This project is a simple FastAPI-based Chai Ordering API where users can view av
 1. Clone this repository:
 2. Install dependencies:
 3. Run the FastAPI server:
+4. python -m uvicorn Api:app --reload
 
 
 ## 🌐 API Endpoints
