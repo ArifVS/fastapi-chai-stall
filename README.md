@@ -35,11 +35,10 @@ This project is a simple FastAPI-based Chai Ordering API where users can view av
 - Uvicorn
   
 ##To run in ubuntu
-python3 -m uvicorn Api:app --reload
 pwd
-cd C:\Users\vsari\Downloads\fastapi-chai-stall-main\fastapi-chai-stall-main
+cd /mnt/c/Users/vsari/Downloads/fastapi-chai-stall-main/fastapi-chai-stall-main
 pip install fastapi uvicorn
-python -m uvicorn Api:app --reload
+python3 -m uvicorn Api:app --reload
 http://127.0.0.1:8000/docs
 
 ## ✨ Author
