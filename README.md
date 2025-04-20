@@ -41,6 +41,15 @@ pip install fastapi uvicorn
 python3 -m uvicorn Api:app --reload
 http://127.0.0.1:8000/docs
 
+Home Route (/):
+- http://127.0.0.1:8000/
+Menu Route (/menu):
+- http://127.0.0.1:8000/menu
+Order Chai Route (/order/{chai_type}:
+- http://127.0.0.1:8000/order/ginger_chai
+for full page:
+- http://127.0.0.1:8000/docs
+
 ## ✨ Author
 Developed by Velloresyed Arifulla 
 
