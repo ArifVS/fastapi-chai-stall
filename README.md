@@ -51,6 +51,6 @@ for full page:
 - http://127.0.0.1:8000/docs
 
 ## ✨ Author
-Developed by Velloresyed Arifulla 
+Developed by  Arif VS
 
 
